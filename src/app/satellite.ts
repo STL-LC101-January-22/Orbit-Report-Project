@@ -15,9 +15,11 @@ export class Satellite {
    }
 	
 	isSpaceDebris(): boolean {
-		return true;
+	return this.type === "Space Debris"
+	
    }
 
 }
-
+// Repair the isSpaceDebris method in the Satellite class. 
+// isSpaceDebris returns true if the satellite type is 'Space Debris', and it returns false otherwise.
 // TODO 3a: fix isSpaceDebris check

@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Satellite } from '../satellite';
+import { matchingSatellites } from './app.component'
 
 @Component({
   selector: 'app-orbit-counts',
